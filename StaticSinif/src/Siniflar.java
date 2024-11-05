@@ -18,7 +18,7 @@ public class Siniflar {
         DisSinif.IcSinif icSinif = new DisSinif.IcSinif();
         icSinif.yazdir(); // Çıktı: Static iç sınıftayım.
 
-        // Non-static iç sınıfa erişim için dış sınıfın bir örneğine (nesnesine) ihtiyaç var deneme
+        // Non-static iç sınıfa erişim için dış sınıfın bir örneğine (nesnesine) ihtiyaç var 
         DisSinif disSinif = new DisSinif();
         DisSinif.NormalIcSinif normalIcSinif = disSinif.new NormalIcSinif();
         normalIcSinif.yazdir(); // Çıktı: Normal iç sınıftayım.
